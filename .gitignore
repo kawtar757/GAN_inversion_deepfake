@@ -1,26 +1,51 @@
+# ===============================
+# Jupyter / IDE
+# ===============================
 .ipynb_checkpoints/
 .vscode/
 
+# ===============================
+# Environnements Python
+# ===============================
 venv/
 .env
 __pycache__/
 *.pyc
+*.pyo
 
+# ===============================
+# Données (DATASETS / FRAMES)
+# ===============================
 raw/
+extracted_frames/
 extracted_frames*/
+frames/
 frames_*/
 temp_frames/
 video_*.npy
+*.npy
 
+# ===============================
+# Résultats / Outputs
+# ===============================
+results/
 results*/
 artifacts/
-recon_*/
-reconstruction_*/
+recon_real/
+recon_fake/
+reconstruction_real/
+reconstruction_fake/
 
+# ===============================
+# Modèles entraînés
+# ===============================
 *.pth
 *.ckpt
 *.h5
 *.pkl
 
+# ===============================
+# Frameworks externes
+# ===============================
 stylegan2-ada-pytorch/
 encoder4editing/
